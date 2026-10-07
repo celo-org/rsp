@@ -303,6 +303,8 @@ where
                 excess_blob_gas: block.header().excess_blob_gas(),
                 parent_beacon_block_root: block.header().parent_beacon_block_root(),
                 requests_hash: block.header().requests_hash(),
+                block_access_list_hash: block.header().block_access_list_hash(),
+                slot_number: block.header().slot_number(),
             });
         }
 
